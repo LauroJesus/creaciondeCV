@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #03aac5, #95dc9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.fa-solid.fa-user::before,
+.fa-solid.fa-location-dot::before,
+.fa-solid.fa-briefcase::before,
+.fa-solid.fa-house::before {
+  color: #31a3b1;
+}
+.lista-imagenes i.fa-brands,
+.lista-imagenes i.fa-solid,
+.lista-imagenes1 i.fa-solid {
+  font-size: 40px; /* Ajusta el tamaño del icono según sea necesario */
+  
+}
+
+#cuadro{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr; /* La primera columna es un 50% más ancha que las otras dos */
+  gap: 0px; /* Espacio entre las celdas de la cuadrícula */
+  margin: 0;
+  padding: 0;
+  width: 85%; /* Ajusta el ancho  */
+  height: 85%; /* Ajusta la altura  */
+  border-radius: 30px; /* Esquinas puntiagudas */
+  background-color: rgb(14, 188, 188); /* Color de fondo del div */
+ 
+
+}
+#cuadro #foto {
+    background-color: rgb(244, 231, 231);
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-size: cover;
+    display: inline-block;
+    box-sizing: border-box;
+  
+  }
+
+  #foto img {
+    width: 100%; /* Ajusta el ancho de la imagen según sea necesario */
+    height: 100%; /* Ajusta la altura de la imagen según sea necesario */
+    object-fit: cover; /* Ajuste de tamaño de la imagen manteniendo su relación de aspecto */
+    border-radius: 10px; /* Por ejemplo, esquinas redondeadas para la imagen */
+    /* Otros estilos que desees aplicar a la imagen */
+  }
+ 
+
+
+#cuadro .info {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(251, 246, 246);
+    padding: 1px;
+
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* Crea 3 filas de igual altura */
+    gap: 1px; /* Espacio entre las celdas de la cuadrícula */
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+  
+    
+    
+  }
+
+  #nombre,#bio, #nece {
+
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(147, 147, 147);
+    padding: 0% 0% 0% 3%;
+  }
+ 
+  #nombre i{
+    margin: 2%;
+  }
+
+  
+  #bio a{
+    margin: 0%;
+    padding: 0%;
+    font-size: 24px;
+    color: #31a3b1;
+    font-weight:bolder;
+  } 
+  #nece a{
+    margin: 0%;
+    padding: 0%;
+    font-size: 24px;
+    color: #31a3b1;
+    font-weight:bolder;
+  } 
+  
+  .mi-linea-horizontal {
+    border-bottom: 4px solid #31a3b1; /* Grosor, color y tamaño personalizables */
+    width: 8%; /* Ancho de la línea (puedes ajustarlo según tus necesidades) */
+   /* Centra la línea horizontal en su contenedor */
+    padding: 0;
+    margin: 0 0 0 1%;
+    height: 2%;
+  }
+  .punto-azul {
+    font-weight: bold;
+    color: blue;
+    display: inline;
+  }
+
+  
+  #tec,  #frus {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(147, 147, 147);
+    padding: 0% 0% 0% 3%;
+    margin: 0;
+  }
+  #favorito{
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    height: 80%;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(147, 147, 147);
+    padding: 0% 0% 0% 3%;
+    margin: 20% 0 0 0;
+
+  }
+
+
+  #tec a{
+    margin: 0%;
+    padding: 0%;
+    font-size: 24px;
+    color: #31a3b1;
+    font-weight:bolder;
+    
+  } 
+
+  #tec .in {
+    
+    margin: 2% 0 0 0;
+    padding: 0; /* Alinea el texto "Internet" a la izquierda */
+    color: #000;
+    font-weight: 900;
+    display: flex;
+    float: left;
+    clear: both;
+  }
+  
+  
+
+  #tec .circles-input {
+    display: flex;
+    align-items: center;
+    text-align: right; /* Alinea el texto a la izquierda */
+    float: right;
+    margin: 2% 5% 0 0;
+    padding: 0;
+   
+   
+  }
+  #tec .circles-input a {
+    display: inline; /* Hace que el elemento <a> sea en línea para que el texto "Internet" esté alineado a la izquierda */
+    color: #000;
+    font-weight:800; 
+  }
+ #tec .circles-input .circle {
+    display: inline-block; /* Hace que los elementos con clase "circle" sean en bloque en línea para que estén a la derecha */
+  }
+ 
+  .circle {
+    width: 20px;
+    height: 20px;
+    border: 2px ;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: rgb(198, 197, 195);
+    
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    background-color: #31a3b1;
+  }
+ 
+
+
+  #favorito > a{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0 0 0 ;
+    font-size: 24px;
+    color: #31a3b1;
+    font-weight:bolder;
+    
+  } 
+  
+ 
+
+  .lista-imagenes {
+    display: flex; /* Utiliza flexbox para mostrar las imágenes en línea */
+    list-style-type: none; /* Quita los marcadores de lista si los hubiera */
+    padding: 0; /* Quita el relleno */
+    
+  }
+  
+  .lista-imagenes img {
+    width: 13%; /* Define el tamaño pequeño de las imágenes */
+    margin-right: 10px; /* Añade un margen entre las imágenes */
+  }
+
+
+  #frus > a{
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0 0 0 ;
+    font-size: 24px;
+    color: #31a3b1;
+    font-weight:bolder;
+    
+  } 
+  
+  @media screen and (max-width: 800px) {
+
+        #cuadro{ grid-template-columns: 3fr; /* Una sola columna en dispositivos móviles */
+        width: 85%; /* Ajusta el ancho según tus necesidades */
+        height: 100%;
+        }
+        
+        .info{
+        grid-template-columns: 1fr; /* Una sola columna en dispositivos móviles */
+        width: 85%; /* Ajusta el ancho según tus necesidades */
+        height: 100%;
+        }
+        .mi-linea-horizontal{
+          width: 3%;
+        }
+       
+}

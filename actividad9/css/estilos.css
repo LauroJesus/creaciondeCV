@@ -1,0 +1,15 @@
+#carouselExample{
+	width:900px;
+	margin: 0 auto;
+}
+#carouselExample2{
+	width:900px;
+	margin:0 auto;
+}
+
+
+#grid{
+
+	display: grid;
+	grid-row: 0 0 0 0;
+}

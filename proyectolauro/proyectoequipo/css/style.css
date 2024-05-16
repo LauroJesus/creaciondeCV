@@ -1,0 +1,52 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url('../img/fondo1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  padding: 0;
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 0px 0;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.header > p {
+  font-size: 70px;
+  margin: 0;
+  padding: 30px ;
+  color: #593B72;
+  -webkit-text-stroke: 1px white; /* Ancho y color del trazo para navegadores Webkit (como Chrome) */
+  
+}.img {
+  position: relative;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 20px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) 
+{ .header>p {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px ;}
+}

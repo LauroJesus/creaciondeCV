@@ -1,0 +1,110 @@
+header{
+    background-color: #fbd7bb;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    line-height: 35px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 35px;
+}
+section{
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    grid-template-rows: 130px 130px auto;
+    margin: 8px;
+    font-size: 35px;
+}
+.nav{
+    grid-column: 1;
+    grid-row: 1;
+    height: 150px;
+    text-align: center;
+    background-color: #b7dde8;
+    line-height: 155px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 20px;
+}
+.sec{
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 3; 
+    background-color: #d8d8d8;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 35px;
+}
+.sec2{
+    grid-column: 2 / span 4;
+    grid-row:  0/ span 3; 
+    background-color: #d8d8d8;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    grid-template-columns:  292px;
+    grid-template-rows: 70px 120px 7px;
+}
+
+.article{
+    background-color: #8db1e2;
+    grid-column: 2;
+    grid-row: 1/ span 2 ; 
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 28px;
+    text-align: center;
+    line-height: 115px;
+    font-size: 40px;
+
+    
+}
+.aside1{
+    background-color: #d99690;
+    grid-column: 3;
+    grid-row: 1/ span  ;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 18px;
+    text-align: center;
+    line-height: 85px;
+ 
+}
+.aside2{
+    background-color: #d99690;
+    grid-column: 3;
+    grid-row: 1/ span ; 
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 18px;
+    text-align: center;
+    line-height: 85px;
+ 
+}
+.aside3{
+    background-color: #d99690;
+    grid-column: 3;
+    grid-row: 2 ; 
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 18px;
+    text-align: center;
+    line-height: 85px;
+}
+footer{
+    background-color: #d3d3ab; 
+    text-align: center;
+    width: auto;
+    height: auto;
+    line-height: 65px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; 
+    font-size: 35px;
+}

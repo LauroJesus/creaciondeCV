@@ -1,0 +1,376 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    text-align: center;
+    color: black;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+body header{
+   
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+body header div.header_2 {
+    width: auto;
+    height: 50PX;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  
+}
+
+body header div.header_2 a:first-of-type{
+    float: left;
+    padding: 15px 0px 15px 80px;
+}
+body header div.header_2 a{
+     padding: 15px 80px 15px 0px;
+     float: right;
+
+
+}
+
+body div.caja1{
+   
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0 ;
+    
+}
+
+
+body div.caja1 div.fondo{
+    background-image: url('imagenes/portada-1.webp');
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin:  0 ;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+body div.caja1 div.fondo div.menu{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 0 0px 0;
+    box-sizing: border-box;
+   
+    
+}
+body div.caja1 div.fondo div.menu img.logo{
+    width: 140px;
+    float: left;
+ 
+    padding: 0px 0 0 0;
+    margin: 6vh 0px 0px 9vw;
+    box-sizing: border-box;
+    
+}
+body div.caja1 div.fondo div.menu img.logo2{
+    width: 140px;
+    float: right;
+   
+    padding: 0px 0 0 0;
+    margin: 6vh 2vw 0px 9vw;
+    box-sizing: border-box;
+    
+}
+
+body div.caja1 div.fondo div.menu ul{
+    margin: 5vh 0 0 0 ;
+    float: left;
+    width: 60vw;
+    list-style: none;
+ 
+    font-size: 16px;
+    position: relative;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-wrap: wrap; /* Sirve para ponerlos de forma vertical*/
+    
+}
+body div.caja1 div.fondo div.menu ul li{
+    margin-right: 39px; /* Espacio entre elementos */
+    margin: 0x 0px 0px 0px;
+    padding: 3vh 0 0 7vw;
+    box-sizing: border-box;
+    width: 10vw;
+    float: left;
+    margin-bottom: 11px;
+}
+
+body div.caja1 div.fondo div.lema{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 87px 0 0 0;
+    display: grid;
+    position:relative;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+body div.caja1 div.fondo div.lema a.levantate{
+    width: 40%;
+
+    text-align: center;
+    font-size:5vw;
+    margin: 0vh 0 5vh 30vw;
+    padding: 0 0 0 0vw;
+   
+  
+    
+}
+
+body div.caja1 div.fondo div.lema a.con{
+    width: 50%;
+  
+    text-align: center;
+    font-size: 30px;
+    margin: 0vh 0 0 23vw;
+    padding: 0 0 0 0vw;
+    box-sizing: border-box;
+    
+
+}
+
+body div.caja1 div.fondo div.lema a.boton{
+    width: 29%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 5vh 0vw 0 35vw;
+    padding: 2vh;
+    color: white;
+    border:1px solid #315437;
+    box-sizing: border-box;
+    font-size: 20px;
+    
+
+}
+
+body div.caja_2{
+    width: 100%;
+    height: auto;
+ 
+    position:relative;
+    padding: auto;
+    margin: 0px 0px 0px 0px;
+   
+    box-sizing: border-box;
+    display: grid 0 0 0;
+    float: left;
+  
+}
+body div.caja_2 div.imagenes{
+    width: 25%;
+    float: left;
+    margin: 75px 0px 0px 95px;
+    padding: 0px;
+
+
+    box-sizing: border-box;
+    position:relative;
+
+    
+}
+body div.caja_2 div.imagenes img{
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    
+}
+body div.carru{
+    width: 96%;
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 4%;
+}
+body div.carru div.uno {
+    width: 25%;
+
+    position: relative;
+    
+  }
+body div.carru div.uno img{
+    width: 100%;
+
+  }
+body div.carru div.dos {
+    width: 25%;
+    background-color:  rgb(195, 196, 192);
+    position: relative;
+    float: right;
+  }
+body div.carru div.dos img{
+    width: 100%;
+
+    
+  }
+body div.carru div.tres {
+    width: 70%;
+    background-color:  rgb(195, 196, 192);
+    position: relative;
+    
+  }
+body div.carru div.tres img{
+    width: 100%;
+    
+  }
+  body div.carru div.cuatro {
+    width: 25%;
+   
+    position: relative; 
+    float: left;
+  
+  }
+body div.carru div.cuatro img{
+    width: 100%;
+    float: left;
+  }
+
+  body div.caja3{
+    border:1px solid #315437;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+  
+    padding: 0;
+    margin: 0 ;
+    float: left;
+    
+    
+}
+
+
+body div.caja3 div.fondo_footer{
+    background-image: url('imagenes/footer_1.jpg');
+    width: 100%;
+    padding: 0;
+    margin:  0 0 0 0 ;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 400px;
+}
+body div.caja3 div.fondo_footer div.lema_3{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0pv 0 0 0;
+    display: grid;
+    position:relative;
+    box-sizing: border-box;
+ 
+}
+
+body div.caja3 div.fondo_footer div.lema_3 a.reto{
+    width: 40%;
+    text-align: center;
+    font-size: 3vw;
+    margin: 0vh 0 5vh 30vw;
+    padding: 14vh 0 0 0vw;
+    color: rgb(255, 255, 255);
+  
+    
+}
+body div.caja3 div.fondo_footer div.lema_3 a.un{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin: 0vh 0 0 23vw;
+    padding: 0 0 0 0vw;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+body div.caja3 div.fondo_footer div.lema_3 a.boton_2{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 2vh 0vw 0 35vw;
+    padding: 1vh;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-size: 15px;
+    
+
+}
+
+body footer{
+    width: 100%;
+    padding: 0;
+    margin:  0 0 0 0 ;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 400px;
+    background-color: #2f3132;
+    float: left;
+    color:white;
+    height: auto;
+}
+
+body footer a{
+   float: left;
+   margin: 16vh 0 0 18vw;
+}
+
+@media (max-width: 1080px){
+    body header div.header_2{
+        width: 100%;
+       }
+    body div.caja1{
+        width: 100%;
+       }
+    body div.caja1 div.fondo{
+        width: 100%;
+       }
+    body div.caja1 div.fondo div.menu img.logo{
+        margin-left: 44vw;
+        width: 23vw;
+        
+    }
+    body div.caja1 div.fondo div.menu ul {
+        margin-right: 10px;
+        width: 100%;
+       }
+       body div.caja1 div.fondo div.menu ul li{
+        margin-right: 10px;
+        width: 100%;
+       }
+    body div.caja1 div.fondo div.menu img.logo2{
+        margin-right: 30vw;
+    }
+    body div.caja1 div.fondo div.lema{
+        width: 100%;
+    }
+    body div.caja_2{
+        width: 100%;
+       }
+    body div.caja_2 div.imagenes{
+      width: 50%;
+    }
+    body footer a{
+        width: 80%;
+    }
+
+}
